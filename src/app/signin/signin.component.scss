@@ -1,0 +1,57 @@
+body {
+    background-color: #f0f2f5;
+}
+
+#mainContent {
+    background: #ffffff;
+    width: 432px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    color: #0866ff;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.cardHeader {
+    text-align: center;
+    padding: 20 0 0 0 ;
+    h3 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    
+    p {
+        color: #606770;
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+.formLogin {
+    padding: 16px;  
+    border: 1px black solid;
+    color: gray;
+    input + input {
+        margin-left: 5px;
+      }
+
+    label {
+        font-size: 16px;
+        color: #333;
+      
+        input[type="radio"] {
+          margin-right: 8px; // Khoảng cách giữa radio button và nhãn
+        }
+      
+        input[type="radio"]:checked + span {
+          font-weight: bold;
+          color: #4CAF50; // Thay đổi màu khi radio được chọn
+        }
+      }
+      
+
+}
+
